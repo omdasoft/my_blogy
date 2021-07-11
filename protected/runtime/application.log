@@ -1,0 +1,558 @@
+2021/06/17 11:35:03 [error] [php] include(Nav.php): failed to open stream: No such file or directory (F:\Tutorials\Yii1.1\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(46): spl_autoload_call()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): CContentDecorator->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): SiteController->endWidget()
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): SiteController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): SiteController->renderFile()
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): SiteController->render()
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/index
+in C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php (46)
+in C:\laragon\www\blogy\protected\views\layouts\column1.php (6)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (32)
+2021/06/17 11:36:52 [error] [php] include(NavBar.php): failed to open stream: No such file or directory (F:\Tutorials\Yii1.1\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(46): spl_autoload_call()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): CContentDecorator->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): SiteController->endWidget()
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): SiteController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): SiteController->renderFile()
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): SiteController->render()
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/index
+in C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php (46)
+in C:\laragon\www\blogy\protected\views\layouts\column1.php (6)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (32)
+2021/06/17 11:36:53 [error] [php] include(NavBar.php): failed to open stream: No such file or directory (F:\Tutorials\Yii1.1\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(46): spl_autoload_call()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): CContentDecorator->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): SiteController->endWidget()
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): SiteController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): SiteController->renderFile()
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): SiteController->render()
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/index
+in C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php (46)
+in C:\laragon\www\blogy\protected\views\layouts\column1.php (6)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (32)
+2021/06/17 11:46:24 [error] [exception.CException] CException: Alias "bootstrap.widgets.TbMenu" is invalid. Make sure it points to an existing directory or file. in F:\Tutorials\Yii1.1\yii\framework\YiiBase.php:355
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(181): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(24): CBaseController->widget('bootstrap.widge...', Array)
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#6 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#7 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#11 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#13 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#15 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): CController->render('index')
+#16 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#22 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#23 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/blogy/index.php?r=site/index
+---
+2021/06/28 11:42:11 [error] [exception.CHttpException.404] CHttpException: The requested view "sidebar" was not found. in F:\Tutorials\Yii1.1\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('sidebar')
+#1 F:\Tutorials\Yii1.1\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/blogy/index.php?r=site/page&view=sidebar
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/index
+---
+2021/06/28 12:22:44 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "about". in F:\Tutorials\Yii1.1\yii\framework\web\CController.php:486
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(270): CController->missingAction('about')
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('about')
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blogy/index.php?r=site/about
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/index
+---
+2021/06/28 13:18:43 [error] [exception.CException] CException: CClientScript and its behaviors do not have a method or closure named "registerJsFile". in F:\Tutorials\Yii1.1\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(15): CComponent->__call('registerJsFile', Array)
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): CController->render('index')
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/blogy/index.php?
+---
+2021/06/28 13:19:08 [error] [exception.CException] CException: CClientScript and its behaviors do not have a method or closure named "registerJsFile". in F:\Tutorials\Yii1.1\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(15): CComponent->__call('registerJsFile', Array)
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): CController->render('index')
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/blogy/index.php?
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/index
+---
+2021/06/28 13:19:09 [error] [exception.CException] CException: CClientScript and its behaviors do not have a method or closure named "registerJsFile". in F:\Tutorials\Yii1.1\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(15): CComponent->__call('registerJsFile', Array)
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): CController->render('index')
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/blogy/index.php?
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/index
+---
+2021/07/01 12:59:30 [error] [exception.CException] CException: SiteController cannot find the requested view "//includes/_header.php". in F:\Tutorials\Yii1.1\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(13): CController->renderPartial('//includes/_hea...')
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): CController->render('index')
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/blogy/index.php
+---
+2021/07/01 13:00:25 [error] [exception.CException] CException: SiteController cannot find the requested view "//layouts/_header.php". in F:\Tutorials\Yii1.1\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(13): CController->renderPartial('//layouts/_head...')
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): CController->render('index')
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/blogy/index.php
+---
+2021/07/01 13:00:31 [error] [exception.CException] CException: SiteController cannot find the requested view "//layouts/_header.php". in F:\Tutorials\Yii1.1\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(13): CController->renderPartial('//layouts/_head...')
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): CController->render('index')
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/blogy/index.php
+---
+2021/07/01 13:00:33 [error] [exception.CException] CException: SiteController cannot find the requested view "//layouts/_header.php". in F:\Tutorials\Yii1.1\yii\framework\web\CController.php:881
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\layouts\main.php(13): CController->renderPartial('//layouts/_head...')
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#4 F:\Tutorials\Yii1.1\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 F:\Tutorials\Yii1.1\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#8 C:\laragon\www\blogy\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#12 C:\laragon\www\blogy\protected\controllers\SiteController.php(32): CController->render('index')
+#13 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/blogy/index.php
+---
+2021/07/05 13:02:06 [error] [exception.CException] CException: Property "ContactForm.username" is not defined. in F:\Tutorials\Yii1.1\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\helpers\CHtml.php(2770): CComponent->__get('username')
+#1 F:\Tutorials\Yii1.1\yii\framework\web\helpers\CHtml.php(2493): CHtml::resolveValue(Object(ContactForm), 'username')
+#2 F:\Tutorials\Yii1.1\yii\framework\web\helpers\CHtml.php(1540): CHtml::activeInputField('text', Object(ContactForm), 'username', Array)
+#3 C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php(13): CHtml::activeTextField(Object(ContactForm), 'username')
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): CController->renderPartial('contact', Array, true)
+#8 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): CController->render('contact', Array)
+#9 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#14 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#15 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/blogy/index.php?r=site/contact
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/contact
+---
+2021/07/05 13:12:55 [error] [exception.Error] Error: Call to undefined method CHtml::activeTextareaField() in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:29
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): CController->renderPartial('contact', Array, true)
+#4 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): CController->render('contact', Array)
+#5 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#11 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/blogy/index.php?r=site/contact
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/contact
+---
+2021/07/05 13:13:08 [error] [exception.Error] Error: Call to undefined method CHtml::activeTextAreaField() in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:29
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): CController->renderPartial('contact', Array, true)
+#4 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): CController->render('contact', Array)
+#5 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#11 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/blogy/index.php?r=site/contact
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/contact
+---
+2021/07/05 13:13:09 [error] [exception.Error] Error: Call to undefined method CHtml::activeTextAreaField() in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:29
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): CController->renderPartial('contact', Array, true)
+#4 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): CController->render('contact', Array)
+#5 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#11 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/blogy/index.php?r=site/contact
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/contact
+---
+2021/07/05 13:16:48 [error] [php] Object of class ContactForm could not be converted to string (F:\Tutorials\Yii1.1\yii\framework\web\helpers\CHtml.php:2394)
+Stack trace:
+#0 C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php(29): textArea()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): SiteController->renderFile()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#5 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): SiteController->render()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#11 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/contact
+in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php (29)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (84)
+in C:\laragon\www\blogy\index.php (13)
+2021/07/05 13:17:12 [error] [exception.Error] Error: Call to undefined method CHtml::TextAreaField() in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:29
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(126): require()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#2 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): CController->renderPartial('contact', Array, true)
+#4 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): CController->render('contact', Array)
+#5 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#10 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#11 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/blogy/index.php?r=site/contact
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/contact
+---
+2021/07/05 13:21:13 [error] [php] Undefined variable: form (C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:39)
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): SiteController->render()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/contact
+in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php (39)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (84)
+in C:\laragon\www\blogy\index.php (13)
+2021/07/05 13:22:13 [error] [php] Undefined variable: form (C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:39)
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): SiteController->render()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/contact
+in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php (39)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (84)
+in C:\laragon\www\blogy\index.php (13)
+2021/07/05 13:22:14 [error] [php] Undefined variable: form (C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:39)
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): SiteController->render()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/contact
+in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php (39)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (84)
+in C:\laragon\www\blogy\index.php (13)
+2021/07/05 13:22:55 [error] [php] Undefined variable: form (C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:39)
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): SiteController->render()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/contact
+in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php (39)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (84)
+in C:\laragon\www\blogy\index.php (13)
+2021/07/05 13:22:56 [error] [php] Undefined variable: form (C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:39)
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): SiteController->render()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/contact
+in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php (39)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (84)
+in C:\laragon\www\blogy\index.php (13)
+2021/07/05 13:47:23 [error] [exception.CException] CException: SiteController contains improperly nested widget tags in its view "C:\laragon\www\blogy\themes\bootstrap\views/site\contact.php". A CActiveForm widget does not have an endWidget() call. in F:\Tutorials\Yii1.1\yii\framework\web\CBaseController.php:101
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): CController->renderPartial('contact', Array, true)
+#2 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): CController->render('contact', Array)
+#3 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#9 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\blogy\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blogy/index.php?r=site/contact
+HTTP_REFERER=http://localhost/blogy/index.php?r=site/contact
+---
+2021/07/05 13:59:53 [error] [php] Non-static method CActiveForm::labelEx() should not be called statically (C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php:43)
+Stack trace:
+#0 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\laragon\www\blogy\protected\controllers\SiteController.php(84): SiteController->render()
+#3 F:\Tutorials\Yii1.1\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#4 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\Tutorials\Yii1.1\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\Tutorials\Yii1.1\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\Tutorials\Yii1.1\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\laragon\www\blogy\index.php(13): CWebApplication->run()
+REQUEST_URI=/blogy/index.php?r=site/contact
+in C:\laragon\www\blogy\themes\bootstrap\views\site\contact.php (43)
+in C:\laragon\www\blogy\protected\controllers\SiteController.php (84)
+in C:\laragon\www\blogy\index.php (13)
